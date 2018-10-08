@@ -10,6 +10,15 @@
   </head>
 
   <body>
+  <nav class="navbar">
+      <%= link_to "HouseSalad", root_path %>
+      <%= form_tag :search, method: :get do %>
+        <div class="select">
+          <%= select_tag :state, options_for_select(us_states) %>
+          <%= submit_tag "Locate Members from the House" %>
+        </div>
+      <% end %>
+</nav>
     <%= yield %>
   </body>
 </html>
