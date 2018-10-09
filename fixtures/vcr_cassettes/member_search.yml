@@ -1,0 +1,1375 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:32 GMT
+      X-Amzn-Requestid:
+      - 6bcd4314-cbea-11e8-9eb7-b726c2d57408
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - OgkymEtiIAMF1uA=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce810-ff040eb03a76655046a911a0;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0dfe6f02dbba7c39906cae47653ae6b3.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - He_63E0bwEX9bTLGHFSFutnubslChp_0UMcW4NQj-qGmnScTx870gw==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:32 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:33 GMT
+      X-Amzn-Requestid:
+      - 6c123b28-cbea-11e8-b84a-29061ce73a21
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - OgkyqF96oAMFfcQ=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce811-c0b9ee6076e54db8341cec11;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 94bd5e4f47540501369a53d4ae35d3b3.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - HzBKfWz88xl34_zi_myV26-JMs2g6Q1oCLpo9WAqSw69ggb-AZmObg==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:33 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:33 GMT
+      X-Amzn-Requestid:
+      - 6c5a199b-cbea-11e8-ac98-2708f382d2f2
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - OgkyvG3xoAMFZdQ=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce811-bf5b963ed8a8c3a27bafae00;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 a47d45d25cc354507eae77aba89ca253.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - vbjN16Wk3dbURVzUfCB2voA0yswhiR54ZbS2vJ3EpTUZf2oMdXHWWw==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:33 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:34 GMT
+      X-Amzn-Requestid:
+      - 6cb4e45c-cbea-11e8-b081-1b7ef9a8539f
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - Ogky1FFgIAMF-UQ=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce812-12b70a8e492a42ae12699e71;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ec4d04f2befcd6652834fd368a8b671e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - w4eX3HK1XxsiezeH257E6Q0P-HJzMUKqEzbtaU4yNWQW9hYlBX_AZw==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:34 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:34 GMT
+      X-Amzn-Requestid:
+      - 6d0af2e1-cbea-11e8-8ef3-7b73c66e9157
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - Ogky7HonIAMFnQQ=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce812-7010dc43bcb5fb04694f9010;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 3ec85dbaae49079b372b8a392a12e9bc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - K6EEpS5WDoEyH63Md6qM7TpP7QsigZsp828dJif_UbFyhxinTn5PKg==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:35 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:35 GMT
+      X-Amzn-Requestid:
+      - 6d64849b-cbea-11e8-8eb3-bf0b9c73000c
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - OgkzAFwtIAMFyUg=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce813-db500a401b48efe094c32d60;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0e018abb74f4918cb6e427c3e0a7ee33.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - yD4TpFwBS1_pSLr71JsbeVwhazbnHlOrXG67M0NY_BoXC944qDiIzw==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:35 GMT
+- request:
+    method: get
+    uri: https://api.propublica.org/congress/v1/members/house/CO/current.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<YOUR PROPUBLICA KEY HERE>"
+      User-Agent:
+      - Faraday v0.15.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '4553'
+      Connection:
+      - keep-alive
+      Date:
+      - Tue, 09 Oct 2018 17:40:35 GMT
+      X-Amzn-Requestid:
+      - 6d95cdde-cbea-11e8-b243-dfe628fabc5c
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+      X-Amz-Apigw-Id:
+      - OgkzEF9KoAMF2Lw=
+      Access-Control-Allow-Methods:
+      - GET,OPTIONS
+      X-Amzn-Trace-Id:
+      - Root=1-5bbce813-a91188b676b8f16642068925;Sampled=0
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c55bfc9d9a95cdee8e23989feddaa4b3.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - uEK39QkqAQMa-vXl0xEbm2DoQM7YRPUMHXRdMhtQ-BY33eWV6WxR_Q==
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "status":"OK",
+           "copyright":"Copyright (c) 2018 Pro Publica Inc. All Rights Reserved.",
+           "results":[
+              {
+                 "id": "D000197",
+                 "name": "Diana DeGette",
+                 "first_name": "Diana",
+                 "middle_name": null,
+                 "last_name": "DeGette",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "F",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDianaDeGette",
+                 "facebook_account": "DianaDeGette",
+                 "youtube_id": "RepDianaDeGette",
+                 "seniority": "22",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/D000197.json",
+                 "district": "1",
+                 "at_large": false
+              },
+              {
+                 "id": "P000598",
+                 "name": "Jared Polis",
+                 "first_name": "Jared",
+                 "middle_name": null,
+                 "last_name": "Polis",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "JaredPolis",
+                 "facebook_account": "jaredpolis",
+                 "youtube_id": "JaredPolis31275",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000598.json",
+                 "district": "2",
+                 "at_large": false
+              },
+              {
+                 "id": "T000470",
+                 "name": "Scott Tipton",
+                 "first_name": "Scott",
+                 "middle_name": null,
+                 "last_name": "Tipton",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": "",
+                 "twitter_id": "RepTipton",
+                 "facebook_account": "CongressmanScottTipton",
+                 "youtube_id": "RepScottTipton",
+                 "seniority": "8",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/T000470.json",
+                 "district": "3",
+                 "at_large": false
+              },
+              {
+                 "id": "B001297",
+                 "name": "Ken Buck",
+                 "first_name": "Ken",
+                 "middle_name": null,
+                 "last_name": "Buck",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepKenBuck",
+                 "facebook_account": null,
+                 "youtube_id": null,
+                 "seniority": "4",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/B001297.json",
+                 "district": "4",
+                 "at_large": false
+              },
+              {
+                 "id": "L000564",
+                 "name": "Doug Lamborn",
+                 "first_name": "Doug",
+                 "middle_name": null,
+                 "last_name": "Lamborn",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepDLamborn",
+                 "facebook_account": "CongressmanDougLamborn",
+                 "youtube_id": "CongressmanLamborn",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/L000564.json",
+                 "district": "5",
+                 "at_large": false
+              },
+              {
+                 "id": "C001077",
+                 "name": "Mike Coffman",
+                 "first_name": "Mike",
+                 "middle_name": null,
+                 "last_name": "Coffman",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "R",
+                 "times_topics_url": null,
+                 "twitter_id": "RepMikeCoffman",
+                 "facebook_account": "repmikecoffman",
+                 "youtube_id": "CongressmanCoffman",
+                 "seniority": "10",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/C001077.json",
+                 "district": "6",
+                 "at_large": false
+              },
+              {
+                 "id": "P000593",
+                 "name": "Ed Perlmutter",
+                 "first_name": "Ed",
+                 "middle_name": null,
+                 "last_name": "Perlmutter",
+                 "suffix": null,
+                 "role": "Representative",
+                 "gender": "M",
+                 "party": "D",
+                 "times_topics_url": null,
+                 "twitter_id": "RepPerlmutter",
+                 "facebook_account": "RepPerlmutter",
+                 "youtube_id": "RepPerlmutter",
+                 "seniority": "12",
+                 "next_election": "2018",
+                 "api_uri": "https://api.propublica.org/congress/v1/members/P000593.json",
+                 "district": "7",
+                 "at_large": false
+              }
+        ]}
+    http_version: 
+  recorded_at: Tue, 09 Oct 2018 17:40:35 GMT
+recorded_with: VCR 4.0.0

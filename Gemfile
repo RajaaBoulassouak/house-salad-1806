@@ -17,8 +17,14 @@ gem 'figaro'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
+  gem 'awesome_print'
   gem 'rspec-rails'
   gem 'capybara'
+end
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do

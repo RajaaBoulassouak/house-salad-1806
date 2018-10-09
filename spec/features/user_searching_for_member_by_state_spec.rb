@@ -2,6 +2,9 @@ require 'rails_helper'
 
 feature "visitor searches for members" do
   scenario "with a valid state" do
+    file = File.open("./fixtures/member_search.json")
+    stub_request(:get, "https://api.propublica.org/congress/v1/members/house/CO/current.json").
+      to_return(body: file, status: 200)
     # As a user
     # When I visit "/"
     visit "/"
